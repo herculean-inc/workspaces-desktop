@@ -14,26 +14,26 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  workspaces-desktop deb metapackages optional arch=all
 Checksums-Sha1:
- 4a336e1b0d1e2ccf77d9e64a8e422d29242adb0b 13560 workspaces-desktop_1.0.tar.xz
+ f18e3cc61f916005af5de68b4f7411c7aa30a021 13600 workspaces-desktop_1.0.tar.xz
 Checksums-Sha256:
- 6efbad9acd8eae1228436e796589e38d1b00f4c54a93cbc2e39ef5ecc4910f58 13560 workspaces-desktop_1.0.tar.xz
+ ab342183da9bb7a70316774e6f9aa3405723d8b9b2285e1f7c96e89126d2aab5 13600 workspaces-desktop_1.0.tar.xz
 Files:
- e745bb78ac83cec62243c2ac3ef55486 13560 workspaces-desktop_1.0.tar.xz
+ d79f3814e8544e5dc7870faf3666c150 13600 workspaces-desktop_1.0.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAEBCgAxFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl40WUYTHGhlbGxvQGhl
-cmN1bGVzLmRldgAKCRDh3C0i1Ns0yNTpD/4o6vaGXBxoK0d7jFXLhzRD6LrKQp+e
-5IMN8IlXluM79IYu2IQFz/iUf/Nop6r2+J88YPQBQqUN7jhr9kJbyVFdnzHBW1Rw
-ejyLy/9KQ4zoTiM7XwAYQ+ihyWjqbWIK8dYGUJwP/LfIpggbPWXXpO+jXDBB5yXy
-3Qu76LgwiYhl0Jrs7YMp43jS+LvHwmgR01NY8abeTO+YomRsyDTr1MGyfSjTMlE3
-KDiiMo3cYZeq8EYM5BdLCognSm9dz/v3IAsczzZe/6cOm2WUllAXepjUOlsOVwRs
-yUJrVzc1PlaLaNLC4Z3gCisL0c7AhWdxol274rqD1OG/Rj4LA0vTlWdx6Id8Q6GW
-j7Q/NG2uqUaHXh6HUYC/uj5547+VmBlv/GrazekBExTnH6LvXvfbYSpbdu6IYwZH
-6paAL3der7iqMdAeTzUAHkVqRkvDJZMBalj9JDzryBOPfZfJvSgSt93rniLjDU+8
-0/rq1ORYxCETEvqskveQux0x7XtEFJ7hQqYms1N6S+xsM1nuyHfyqHDvhJECHqfi
-SJO4VekPYSlGEN7K9q5xwpAjUZPxCcf62pdQXuNpLKf8OlhHzjeClcy4h2SmnYPT
-P71i3GL2f1llTXrJ2d4AEUmkatyrC/E4XNj4CZqoEWwtQ5Vm3XfkPKLYaPOh7xOG
-BRCagC3xQ0+8RQ==
-=W2k6
+iQJHBAEBCgAxFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl40mk0THGhlbGxvQGhl
+cmN1bGVzLmRldgAKCRDh3C0i1Ns0yOOtD/97gYJW1ZRxPdUPgrdoiYl0nKcNezZ4
+Xm51Mw6xy79+KoaIeShXltWDQVt6XEHWnwWXHVqppfCwG5MX8J2lkeqVEeDdedjQ
+/hwXkkucj9L3tGqSaA2kzyVUaj1uQf4MecbXtKWLCGeFTaXClFemiBjWs2x3JBO+
+jl2wGWb5LVqRs8BQ1nSskiZ4WQtkAo5dKccV7vXxj98DvFjTLJWjtE3m0LU4deuj
+Bl/aJYPMQs99sTgY5Tl4IROgqpiA01WXztcJ2wEWKMjI7ub++4NXFit5hNxc/slQ
+gsUtcGqxCRJwZD7ES6E1HPHKCNdXDXHfbMQ++8JZGzBoQfKfhJoczOjWA3rnFJmc
+iEThkg59Xw3M8jwLSGN8l1dnBvQYbM+0TbfOYLOwQNbNVOXAMV66p0XizlUrVxV9
+eri7eSWz/ZwQlo+lv4bmRfAraiSX0DE1cUWlvzs7xX4Sz59PVEQvIpASJtSAvNqU
+oVorUudFTyFrWNklty/qWE9kgFnQ/9zOmpryaGd3sh+ntXgN6e7OLfuvR5LT6ZkD
+7ttBnI+1P5dUzRUQxSBCITE9pvzsUIJYEWZMpwMeCo/dohy6/N43keSZqhL0KhyM
+876wcH7rLJiEzpY0I+5kIYOeOjkNkM5GhqaJ6SJxVjZ2+z/TK5IaY8JE9ltlJ+im
+5h7mEIDStlb+fA==
+=vNEF
 -----END PGP SIGNATURE-----
