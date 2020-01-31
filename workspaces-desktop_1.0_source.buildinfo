@@ -1,20 +1,20 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: workspaces-desktop
 Binary: workspaces-desktop
-Architecture: all source
-Version: 1.3.0~1578610691~20.04~c075371
+Architecture: source
+Version: 1.0
 Checksums-Md5:
- a4ff911c7178bf926c3b69d02b4bf4aa 784 workspaces-desktop_1.3.0~1578610691~20.04~c075371.dsc
- 717275fc25aaab917164f6e6f85727bd 2272 workspaces-desktop_1.3.0~1578610691~20.04~c075371_all.deb
+ 139db61ca8852ae9e0a4306c38220560 1588 workspaces-desktop_1.0.dsc
 Checksums-Sha1:
- b23d77c6d3c64e6509924ed119bad45da7ce14b6 784 workspaces-desktop_1.3.0~1578610691~20.04~c075371.dsc
- 56e4b3ebe161f6ceaa315660ede6a6e0cf3d6a1f 2272 workspaces-desktop_1.3.0~1578610691~20.04~c075371_all.deb
+ 62b06da6730e0f1324f1512f9c4096fa13e69929 1588 workspaces-desktop_1.0.dsc
 Checksums-Sha256:
- 923d339e4d782cac85e2538f02e0b1716eb638c97998a56f842f1b12c203e2a4 784 workspaces-desktop_1.3.0~1578610691~20.04~c075371.dsc
- c69ae65081e8d9bfce79ba880f9d2961c88b26d7ff1d0f8c7ccb34a2a764ef0c 2272 workspaces-desktop_1.3.0~1578610691~20.04~c075371_all.deb
+ 14a198462e9d629904ce7834092b7241912bff7de065c4dbacb1d1f06d4a78f7 1588 workspaces-desktop_1.0.dsc
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 31 Jan 2020 09:51:07 -0600
+Build-Date: Fri, 31 Jan 2020 10:43:49 -0600
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-configs
@@ -172,3 +172,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=8"
  LANG="en_US.UTF-8"
  SOURCE_DATE_EPOCH="1580482800"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl40WUYTHGhlbGxvQGhl
+cmN1bGVzLmRldgAKCRDh3C0i1Ns0yEdOEAC4j2Afr8Nlm/uYY0DpLGjPQWr6vxE2
+QrRcUHO6XYnoQFFFdCdKcFNYNYJOnxnD+rmjrEwCJspriRXOQs0RZtTfYPGFhDQV
+wFku3i8CbuV30+qYf14FPsYq+g5zJn/P3detPZ/cGQF2Xgv4ZdhHfkcf4ReFoF3h
+IjxNDa43Os8YAWfTFNqSZgbSaJxVIvylGoQWfvrAgTwQH5IVQfZ9e3XXlk/XNIMq
+/Lo3tSPiYMveZ7Tb5cNRV9A8zMrWITtMrJ6sTqluSYMAFmOy/UF5Ivv/Bmdq96Er
+tcJYRVIvOVdehOD7PAQbx4AQvNP62IjBHoOCWsZ6X9d7kj2Ib0ndirxy2y6clQlr
+cL83FqbNnG6Q7ZSXP99XMQbgcyY5lIMCiYCzrGxqZeXNWD4e8IvbdhEBHSdf4REp
+kc/12LVPSoERbFYwwffuFbVVGUCJiPZ2pgRvdTFKei9zhRk7t7QGzQvbafg4udh7
+jYiW79RNRBMf0wMZeWuZ82qS2gn/6h+o3CGqh7p9BEWz4noyovizwQkn674iwBk/
+QPdf6V2cyP1TJ/ZXEopZuM02/2BFTM13zE1ZjKLPGyLrLjbSF9xMOGzo4zS9iemK
+Am7nAWdlEzVDK2dqzCRQCMCSJxuAH2wHK2qSzIXxT7WgQc+znjXAB4kMmO8icvL4
+TAFOmWFv6SolPg==
+=QeKV
+-----END PGP SIGNATURE-----

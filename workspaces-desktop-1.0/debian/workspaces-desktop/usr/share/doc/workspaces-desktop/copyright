@@ -1,7 +1,0 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: workspaces-desktop
-Source: https://github.com/herculean-inc/workspaces-desktop
-
-Files: *
-Copyright: Copyright 2020 Herculean Inc
-License: GPL-3+
