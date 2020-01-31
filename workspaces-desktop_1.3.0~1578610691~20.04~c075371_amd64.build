@@ -1,0 +1,84 @@
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: info: source package workspaces-desktop
+dpkg-buildpackage: info: source version 1.3.0~1578610691~20.04~c075371
+dpkg-buildpackage: info: source distribution eoan
+dpkg-buildpackage: info: source changed by Herculean Inc (Debug signing key.) <hello@hercules.dev>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+	rm -f debian/debhelper-build-stamp
+	rm -rf debian/.debhelper/
+	rm -f debian/workspaces-desktop.debhelper.log
+	rm -f -- debian/workspaces-desktop.substvars debian/files
+	rm -fr -- debian/workspaces-desktop/ debian/tmp/
+	find .  \( \( \
+		\( -path .\*/.git -o -path .\*/.svn -o -path .\*/.bzr -o -path .\*/.hg -o -path .\*/CVS -o -path .\*/.pc -o -path .\*/_darcs \) -prune -o -type f -a \
+	        \( -name '#*#' -o -name '.*~' -o -name '*~' -o -name DEADJOE \
+		 -o -name '*.orig' -o -name '*.rej' -o -name '*.bak' \
+		 -o -name '.*.orig' -o -name .*.rej -o -name '.SUMS' \
+		 -o -name TAGS -o \( -path '*/.deps/*' -a -name '*.P' \) \
+		\) -exec rm -f {} + \) -o \
+		\( -type d -a -name autom4te.cache -prune -exec rm -rf {} + \) \)
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building workspaces-desktop in workspaces-desktop_1.3.0~1578610691~20.04~c075371.tar.xz
+dpkg-source: info: building workspaces-desktop in workspaces-desktop_1.3.0~1578610691~20.04~c075371.dsc
+ debian/rules build
+dh build
+   dh_update_autotools_config
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+	rm -f -- debian/workspaces-desktop.substvars
+	rm -fr -- debian/.debhelper/generated/workspaces-desktop/ debian/workspaces-desktop/ debian/tmp/
+   dh_installdocs
+	install -d debian/workspaces-desktop/usr/share/doc/workspaces-desktop
+	install -d debian/.debhelper/generated/workspaces-desktop
+	install -p -m0644 debian/copyright debian/workspaces-desktop/usr/share/doc/workspaces-desktop/copyright
+   dh_installchangelogs
+	install -p -m0644 debian/changelog debian/workspaces-desktop/usr/share/doc/workspaces-desktop/changelog
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+	cd debian/workspaces-desktop
+	chmod a-x usr/share/doc/workspaces-desktop/changelog
+	gzip -9nf usr/share/doc/workspaces-desktop/changelog
+	cd '/home/christian/workspaces/workspaces-desktop/workspaces-desktop-1.0'
+   dh_fixperms
+	find debian/workspaces-desktop -true -print0 2>/dev/null | xargs -0r chown --no-dereference 0:0
+	find debian/workspaces-desktop ! -type l -a -true -a -true -print0 2>/dev/null | xargs -0r chmod go=rX,u+rw,a-s
+	find debian/workspaces-desktop/usr/share/doc -type f -a -true -a ! -regex 'debian/workspaces-desktop/usr/share/doc/[^/]*/examples/.*' -print0 2>/dev/null | xargs -0r chmod 0644
+	find debian/workspaces-desktop/usr/share/doc -type d -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0755
+	find debian/workspaces-desktop -type f \( -name '*.so.*' -o -name '*.so' -o -name '*.la' -o -name '*.a' -o -name '*.js' -o -name '*.css' -o -name '*.scss' -o -name '*.sass' -o -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' -o -name '*.gif' -o -name '*.cmxs' -o -name '*.node' \) -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0644
+   dh_missing
+   dh_installdeb
+	install -d debian/workspaces-desktop/DEBIAN
+   dh_gencontrol
+	echo misc:Depends= >> debian/workspaces-desktop.substvars
+	echo misc:Pre-Depends= >> debian/workspaces-desktop.substvars
+	dpkg-gencontrol -pworkspaces-desktop -ldebian/changelog -Tdebian/workspaces-desktop.substvars -Pdebian/workspaces-desktop -UMulti-Arch
+	chmod 0644 -- debian/workspaces-desktop/DEBIAN/control
+	chown 0:0 -- debian/workspaces-desktop/DEBIAN/control
+   dh_md5sums
+	cd debian/workspaces-desktop >/dev/null && xargs -r0 md5sum | perl -pe 'if (s@^\\@@) { s/\\\\/\\/g; }' > DEBIAN/md5sums
+	chmod 0644 -- debian/workspaces-desktop/DEBIAN/md5sums
+	chown 0:0 -- debian/workspaces-desktop/DEBIAN/md5sums
+   dh_builddeb
+	dpkg-deb --build debian/workspaces-desktop ..
+dpkg-deb: building package 'workspaces-desktop' in '../workspaces-desktop_1.3.0~1578610691~20.04~c075371_all.deb'.
+ dpkg-genbuildinfo
+ dpkg-genchanges  >../workspaces-desktop_1.3.0~1578610691~20.04~c075371_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: full upload; Debian-native package (full source is included)
+Now running lintian workspaces-desktop_1.3.0~1578610691~20.04~c075371_amd64.changes ...
+W: workspaces-desktop source: missing-license-paragraph-in-dep5-copyright gpl-3+ (paragraph at line 5)
+W: workspaces-desktop source: debian-rules-sets-DEB_BUILD_OPTIONS line 6
+W: workspaces-desktop source: maintainer-also-in-uploaders
+E: workspaces-desktop source: invalid-standards-version 1.0
+E: workspaces-desktop: extended-description-is-empty
+Finished running lintian.
