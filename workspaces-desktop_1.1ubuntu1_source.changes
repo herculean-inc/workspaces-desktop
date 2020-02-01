@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 01 Feb 2020 11:36:28 -0600
+Source: workspaces-desktop
+Architecture: source
+Version: 1.1ubuntu1
+Distribution: eoan
+Urgency: medium
+Maintainer: Herculean Inc <hello@hercules.dev>
+Changed-By: Herculean Inc <hello@hercules.dev>
+Changes:
+ workspaces-desktop (1.1ubuntu1) eoan; urgency=medium
+ .
+   * NEW VERSION
+Checksums-Sha1:
+ 46dfada7ebc5ccc0431efc2bd568130a89d035f8 1587 workspaces-desktop_1.1ubuntu1.dsc
+ d279a3d36538d1833af0c43d51dc4adb50edef85 13660 workspaces-desktop_1.1ubuntu1.tar.xz
+ 57de58460af2db1052b1954a71395be0b66e9147 6143 workspaces-desktop_1.1ubuntu1_source.buildinfo
+Checksums-Sha256:
+ 8d714a08a6d94e6f5810f16710c6091c77fc60bcb0e2c69c2a020dd32055174e 1587 workspaces-desktop_1.1ubuntu1.dsc
+ f96e4a5f378f041652641a40ac5243e5cc59854f34d8865ee2d1d14edcf225f6 13660 workspaces-desktop_1.1ubuntu1.tar.xz
+ 6134057d34cebf2b8d45e69c63fb4370270581da15d5bbe6b11d1302a9f94f7d 6143 workspaces-desktop_1.1ubuntu1_source.buildinfo
+Files:
+ 2f5da934c03e0ae83acf73c21e11f153 1587 metapackages optional workspaces-desktop_1.1ubuntu1.dsc
+ 24d5ef5b5d387fb38001c3d18a75aa97 13660 metapackages optional workspaces-desktop_1.1ubuntu1.tar.xz
+ e605bfbcc5770d8d5e9bd5e6e26535eb 6143 metapackages optional workspaces-desktop_1.1ubuntu1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl41tx0ACgkQ4dwtItTb
+NMhhhBAAgvjtzzlYUuWOWtFv+audDVmx7XohGn/cGlaqBJd8jRlLoZuhQxNnE6Rk
+N9d0ygYPHTV5EVDFh2F3FJqXiHc9M4+W3KmqSQXXKRyP+zkEZddq67eyekd11RPM
+nMMhwdHeylvKi/WI3ccLxYaI2Lyq1vqOxcVObAzVTbwHRqSBD0eTvVJXQgtSn0SX
+y+ygG8zPtrH+22yNDHvL9/yqIjT53Vp3+xvhC3T1L9FLOa38l2B+/TZqx+FyxK1x
+1dl6oR2C7eZCrg/m0Dr3OYgw2XRN8nNxSn4rdA3t+1SAc/P24Wq4aN1wDflc5151
+Hp9/QkFZP/yAw/h04Hzkpc749wrGKTljPjeX7b9B2k1QHNzvMSspaDaJxv9rw/vv
+Yp+b4gbG82nwfXWqsJwugRwhoJdLavpcv8F9thJ4LkG4WySJyYYcOMaTWJoaZq4q
+Qz59TQOrjqEspKINC6duiu8esc/R8R+D0NFg7QSDirkw+P68VZcj4vJRz3Jt7Ubt
+xiVkYU42OvSFWLNZ3JhIUrJ11m6S/DXVqBiLgKzTNTzht7YnBhtJdSsCmRZ1oyfi
+OCBbRP8/Ss+fDN4xAvAvVty1NehBMgSgAceNwDCJVPx/546LLM0dM/24p5UrGSy4
+SA6pTplaQSaPOQUwFUpfJUJIuSdsNBvbNOPmmbBbzhCw4FsrKWs=
+=6lVi
+-----END PGP SIGNATURE-----

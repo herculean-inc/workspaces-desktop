@@ -1,3 +1,9 @@
+workspaces-desktop (1.1ubuntu1) eoan; urgency=medium
+
+  * NEW VERSION
+
+ -- Herculean Inc <hello@hercules.dev>  Sat, 01 Feb 2020 11:36:28 -0600
+
 workspaces-desktop (1.1) eoan; urgency=medium
 
   * 
