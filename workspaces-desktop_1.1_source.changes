@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 31 Jan 2020 18:42:13 -0600
+Source: workspaces-desktop
+Architecture: source
+Version: 1.1
+Distribution: eoan
+Urgency: medium
+Maintainer: Herculean Inc <hello@hercules.dev>
+Changed-By: Herculean Inc <hello@hercules.dev>
+Changes:
+ workspaces-desktop (1.1) eoan; urgency=medium
+ .
+   *
+Checksums-Sha1:
+ 03633d8361048645eeb054688f50eb618c88b4c7 1559 workspaces-desktop_1.1.dsc
+ 3e53b5dd0f60cb1acf9aff75ec894c76f9b1f7a9 13620 workspaces-desktop_1.1.tar.xz
+ bf121b5403985d5d0ff5f8f58a92683ab33f7f11 6115 workspaces-desktop_1.1_source.buildinfo
+Checksums-Sha256:
+ b71acc32cb4774638b72801d3ed2fc4c02fcf1a62fdc9faa176919168d8d996f 1559 workspaces-desktop_1.1.dsc
+ daad913b2cd3e7e1060ae9970268f5a46a145bcc7dfbf1d7e86747bf33db045f 13620 workspaces-desktop_1.1.tar.xz
+ c86e9c3ea907580cd3e8de3b31af9c3dd34c5959752ffa1949039cf5aaf52010 6115 workspaces-desktop_1.1_source.buildinfo
+Files:
+ 375d776148b327e9a03f0a75db16d712 1559 metapackages optional workspaces-desktop_1.1.dsc
+ b3c6e753d9cad699a39e8641a449e6e6 13620 metapackages optional workspaces-desktop_1.1.tar.xz
+ d501f6851fd61a12c4b14f1b894195da 6115 metapackages optional workspaces-desktop_1.1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl40yXoACgkQ4dwtItTb
+NMj5HxAAi+vcUbcfWBaYOp5kDHDZj/TYDSYafsKQeCtaWm2UKiFmi4RikJ+HyFP/
+qL0tFlxfE4m5+Aquo3SDHXN+tNC4HLPb4qDZ+DkYtiXec1AjhaDAn8XececoXRZ4
+MEEef1GwbVg3sCj3AacX7is+se6mSwHTFNsfHQbV0EKQA1x/G+o33SRHdJR8Cka7
+FdA/04yzAmSYQDb/i+YyLlHEmRzyvvx7IHCWZEWjz/lzgepYwFzv9f97AWXZU3JI
+2Tas7tkle9FD3PcYbGTRqXR9m3IpRKygJWyJsawSz6cWrILespI5JNsq8AjmawU2
+3jyXsONa/hVL4OTllMxm319x1zCOZU2cbrhZBvU9RPEw+BcWHREvLE46Z21mF+o6
+mcB3hyIUdoTZ3UcdfUzAuh3bo9hSH5Lqecet+xL/LGousgLNLrK4dmSa0lIqOhBO
+iCD7fTBxp7tE9KAvjHgxQIdS8hJs7VA4KBsfRtSfp1jTIrCxU4i6iV1x0RPtwdK4
+dI8tv7DrP3Olnt79YHECLpIb8A0Cw8Zc/LlCKJY1fBamJp6A8PIQWTHnPzY/gD9+
+FLrsgrjG4sX6EIJ5Sx+n0Q3AOth8Lwoh3rSgq/RvPHJtzqPB7zZu8SQuvVqsX/lR
+q8ZwoLtYtlmnTDCvY/HoYMgoKMPc5cSvDKLFZXMGEQ3jXWT1ZYg=
+=HZUg
+-----END PGP SIGNATURE-----

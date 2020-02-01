@@ -1,3 +1,9 @@
+workspaces-desktop (1.1) eoan; urgency=medium
+
+  * 
+
+ -- Herculean Inc <hello@hercules.dev>  Fri, 31 Jan 2020 18:42:13 -0600
+
 workspaces-desktop (1.0) eoan; urgency=medium
 
   * Auto Build
