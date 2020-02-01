@@ -11,11 +11,8 @@ Package: workspaces-desktop
 Architecture: all
 Depends: ${misc:Depends},
 # First to avoid dependency issues
-    pop-wallpapers,
+    workspaces-wallpapers,
     workspaces-session,
-# pop-session,
-### workspaces-wallpapers,
-### workspaces-session,
 # Dependencies
     git,
     gnome-tweaks,
