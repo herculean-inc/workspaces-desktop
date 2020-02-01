@@ -88,8 +88,7 @@ Depends: ${misc:Depends},
     gnome-shell,
     xorg,
 # Distribution
-    pop-default-settings,
-### workspaces-default-settings,
+    workspaces-default-settings,
 # Base
     app-install-data-partner,
     apt-transport-https,
