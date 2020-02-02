@@ -84,7 +84,7 @@ Depends: ${misc:Depends},
     sound-theme-freedesktop,
     vino,
 # Desktop
-    gdm3,
+    lightdm,
     gnome-shell,
     xorg,
 # Distribution

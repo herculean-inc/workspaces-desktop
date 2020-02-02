@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 02 Feb 2020 08:45:36 -0600
+Source: workspaces-desktop
+Architecture: source
+Version: 1.1ubuntu2
+Distribution: eoan
+Urgency: medium
+Maintainer: Herculean Inc <hello@hercules.dev>
+Changed-By: Herculean Inc <hello@hercules.dev>
+Changes:
+ workspaces-desktop (1.1ubuntu2) eoan; urgency=medium
+ .
+   * NEW VERSION
+Checksums-Sha1:
+ 6aa9f678fe557a62370436411b512ef1408d5fc8 1587 workspaces-desktop_1.1ubuntu2.dsc
+ b7a2cb486e3614b02b9d790b875b714f70e7f6b2 13660 workspaces-desktop_1.1ubuntu2.tar.xz
+ fe0cb436193076a182c553bf7fa03c9bb181e4c4 6143 workspaces-desktop_1.1ubuntu2_source.buildinfo
+Checksums-Sha256:
+ 39e12af18714fcbb00558262a691e45e0119071a7dcc192865c6f7e0ab6f69b0 1587 workspaces-desktop_1.1ubuntu2.dsc
+ 7f0729a13fa25dd48f1ef070fc19deb0f1cba3b6fee17560d1b0c62a7db217fc 13660 workspaces-desktop_1.1ubuntu2.tar.xz
+ 3e9070c5ba125d7b1b2c9d9dd12c285116c5abce1ef465bf40aefb530dd3789c 6143 workspaces-desktop_1.1ubuntu2_source.buildinfo
+Files:
+ 72f9b251327aba942a7862a8442831ec 1587 metapackages optional workspaces-desktop_1.1ubuntu2.dsc
+ a2ff4f24c29f890654e7fd53fc4ebb77 13660 metapackages optional workspaces-desktop_1.1ubuntu2.tar.xz
+ ea1e076373c0d9dfadf8725efeb22332 6143 metapackages optional workspaces-desktop_1.1ubuntu2_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl424JIACgkQ4dwtItTb
+NMjkyw/+MWzU0KaumKNXCnfC4vzF4Z2guhvAiHhpjIfzEWNU10PNmMEwStPWEoYn
+C7Q+JHDbi/AOfjNAEOpmrd/W6PjxGPK8ddZgFDmE2qNrjZz1b8SFOFTxCE2Mrl7j
+RuAF+6ipLvW1qC3KoJK7j3KW7C8Wx4cgL55UibYS/8XgMWs8mFwnBwEALSuwikL0
+5QdLF680EABm80QjZQvflEl4dEzXhzq2YbrAxm2Rfqs0HfUzA7945CO3WoJez1Bv
+urJr7c8ic604hbU/48S5EmN3de/9YtnRsekhPzedtdCpY62EnqscNiiTsTmj/kMy
+by4S8+bFdPe/zxtsmXTCu5XQAg67tEmG3FqVwWoN0lqNUx+WHJl0S6xote55vHyo
+uynL0kOciz1zDRdRnDp+K8ZJLgARjConTUskwxfR4sEmjuVR/Qq2Q168l6gkfXYE
+IhParmwC5Frzr5GKo/fNFG7HDNJw7rvn0lvdlCaqwCToePvk80uEHcRg+J+bukGI
+sQIdsN8gMH8U8IFxiJAIPj4bq5FNiPdtceiKTVydNYz8wrgEmr8iPPKwu7TkIlsB
+N7XBPzHJUAwzVLD+w41QUZzPD3sXYmH2vF40MO3zbkxHse1Euv8b4Oou6Lg3UTn7
+Zf7zgdGMkvKk3dka1TUdClWBqVJ1s/ro81U0l6+2GoBh8/Gm73o=
+=MJeC
+-----END PGP SIGNATURE-----
