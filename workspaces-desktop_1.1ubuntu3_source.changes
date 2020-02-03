@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 02 Feb 2020 19:09:28 -0600
+Source: workspaces-desktop
+Architecture: source
+Version: 1.1ubuntu3
+Distribution: eoan
+Urgency: medium
+Maintainer: Herculean Inc <hello@hercules.dev>
+Changed-By: Herculean Inc <hello@hercules.dev>
+Changes:
+ workspaces-desktop (1.1ubuntu3) eoan; urgency=medium
+ .
+   * NEW VERSION
+Checksums-Sha1:
+ ef124944840c00b3eab592f9d4e62be0eeaf1908 1589 workspaces-desktop_1.1ubuntu3.dsc
+ 7052bccb7fcd6bf04d2f0400d1ff2c2c9aa4223a 13680 workspaces-desktop_1.1ubuntu3.tar.xz
+ e2d00795cb321bd4195d150c66de2d540dcf4257 6143 workspaces-desktop_1.1ubuntu3_source.buildinfo
+Checksums-Sha256:
+ 7c949c67dc7b9859dbf8d597b66bbeb0a64a9a04caecbf422b9cd55530e1938d 1589 workspaces-desktop_1.1ubuntu3.dsc
+ 1be8be65b26cfc28c9ebaa4828dd956a21062269250e4800d243a8f17a4dbfdc 13680 workspaces-desktop_1.1ubuntu3.tar.xz
+ 87f7994bc707daefee5363749148d1e112d081427222a6fd11a7e307eee98849 6143 workspaces-desktop_1.1ubuntu3_source.buildinfo
+Files:
+ 50917858470f218f4b55fddf14af5e5d 1589 metapackages optional workspaces-desktop_1.1ubuntu3.dsc
+ 99df53039c307b71e7f2ce0faa5fc857 13680 metapackages optional workspaces-desktop_1.1ubuntu3.tar.xz
+ b12f466530bd48b7ccc6a6234a38d68f 6143 metapackages optional workspaces-desktop_1.1ubuntu3_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl43cskACgkQ4dwtItTb
+NMiU5A//W177ggAV5SsxRLpuLWsHyuDnycJCuRw74H3xQv7D/zlPn4qukiRzGLAZ
+RjCvfHmKZ45oXebJh0wePaeBoHy3Fq8Zc9gcR6glRMmU+EueUnzi+4NBll1rinHk
+vjqPjA3Hz4xU7AUizilTbzigrq8pJY9NPQOxEjtyGkaGIsWVkHl8UDyUt+7VTl6s
+kjU5ltjaF+OYqol+7kR0NzpDi6ZYK7CSBwEobJnIpRUGQbletgQZkdyK/2rK5qj8
+M83lS1fJx+BAyhQs0fTUQ0X4ExAx9w5t3fyo3x8FWM4i6rE8K8Cxik6WOz1edY6d
+Egiz8JC/igXRlHG/eQMrAe76hSAxSw3vWJUIaHR+Y8UCKo0WwSoyzq7/2p4afF67
+x2AwrExKcqBGZTD7n1pk0YiiGz/xgTGRBj9BLPIf8jY84sWGvzpjS7dgRiGfZW1h
+VTGMqkwFlA4yalwq4tKxo6NmMsiM+ESQOGHGaELHGmUnELTsryIQU7MBvGmct0vJ
+GD2f6Q8tzvx1AGpuHkQS8E6nm2f3mWx/9yWuyq5SHchwt5WuJ4AJnJBCjSVvTZ0l
+thgv1OzXmmSigAkhnEY6N7zMjSBux1xMQfiVUGgqgs8pNLhomwqHPvoxSa4vN6Bn
+ZX977jME/H9KT8NMLHLUrQ8/7RRWddh+td1JtYVCheB3FDXx684=
+=y5CY
+-----END PGP SIGNATURE-----

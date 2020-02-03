@@ -1,20 +1,20 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Format: 1.0
 Source: workspaces-desktop
 Binary: workspaces-desktop
-Architecture: source
-Version: 1.1ubuntu2
+Architecture: all source
+Version: 1.1ubuntu3
 Checksums-Md5:
- 72f9b251327aba942a7862a8442831ec 1587 workspaces-desktop_1.1ubuntu2.dsc
+ c42e94b0308b74a143ed41824fce50d9 706 workspaces-desktop_1.1ubuntu3.dsc
+ c1d74d742489396f826f1bba1a73f448 2372 workspaces-desktop_1.1ubuntu3_all.deb
 Checksums-Sha1:
- 6aa9f678fe557a62370436411b512ef1408d5fc8 1587 workspaces-desktop_1.1ubuntu2.dsc
+ e4d1f8a7c926070b3ae8ddca6e37b96e8ee4e9a2 706 workspaces-desktop_1.1ubuntu3.dsc
+ cb30d13852b83db75093cde3685b544676975a5c 2372 workspaces-desktop_1.1ubuntu3_all.deb
 Checksums-Sha256:
- 39e12af18714fcbb00558262a691e45e0119071a7dcc192865c6f7e0ab6f69b0 1587 workspaces-desktop_1.1ubuntu2.dsc
+ 6f9d16e9214e55db67198c383ff1dc5ca36d807b2178414dabac7d3d415e745c 706 workspaces-desktop_1.1ubuntu3.dsc
+ fe68c873024367a5941021d628aeb6c8056e43abf3901605d06e56f619c3d7bc 2372 workspaces-desktop_1.1ubuntu3_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 02 Feb 2020 08:45:36 -0600
+Build-Date: Sun, 02 Feb 2020 19:09:34 -0600
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-configs
@@ -171,21 +171,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=8"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1580654736"
-
------BEGIN PGP SIGNATURE-----
-
-iQIzBAEBCgAdFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl424JIACgkQ4dwtItTb
-NMiuuxAAjrMowwuCw+bTiH+yVRmmso6BGIYLAF1c9fcPeoNtb4G2veF3k37wcqdk
-qIYJOCK0Z6JUN7M3q83dFdXPsVEokoJLOnaU2q885UvuFeirqe13yuw899BiZ/mc
-ZOmvxA+ih9UT4DueLWBX+f3XorpxChUyFVsvaFi+hvgdb0QMt5au+Ww8KTE2G2YN
-oQq3Qd2aIUmaGrRg4L8ER4McXo9ggbV4Sr4ncLjSyY9GRJwwdSrNxwN+5SWYcemW
-87qPgbJR2yhneMaDECKwV8Jv5BsLmj+hcjaynJFstEH6mn4EO4h/bQ4eXuUXdtHr
-ZqUGZUIsYMGWL1m/i+2D62QliCiwfL2JY2A5BUSXWEPu+/jDXjH9/GB4XngR7RDG
-YbDgtV4L0+Gx2X1z9V9PtLAtBKlonDeP+XmbHGhGdk9TGo7PM60opn0Xq1lK5+t+
-70NdglKIBQjGx0dh5zvTJAor+TL1DrhdGM4FXFA85WOoKggBICmNwkHUmOlHf/X9
-aA/Nw3/0UvsDralm8zUzm3L6q8YgKLw2c3TlzcNiwN5UuHbWZkvA7fxA9mzMbb8g
-2kN2kSUZfYhVkQWqRw+eQ8gOzagk0hOI/IVh9JBkreekM5b8sFuK9ucLq0GTHYwp
-Ca4BfExYH2S4FihJVuOgPuIJJdVjy8kd1/GC8a6QEyIVMRwAD5E=
-=7fco
------END PGP SIGNATURE-----
+ SOURCE_DATE_EPOCH="1580692168"

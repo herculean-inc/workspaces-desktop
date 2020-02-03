@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 02 Feb 2020 19:09:28 -0600
+Source: workspaces-desktop
+Binary: workspaces-desktop
+Architecture: source all
+Version: 1.1ubuntu3
+Distribution: eoan
+Urgency: medium
+Maintainer: Herculean Inc <hello@hercules.dev>
+Changed-By: Herculean Inc <hello@hercules.dev>
+Description:
+ workspaces-desktop - Workspaces Desktop Metapackage
+Changes:
+ workspaces-desktop (1.1ubuntu3) eoan; urgency=medium
+ .
+   * NEW VERSION
+Checksums-Sha1:
+ e4d1f8a7c926070b3ae8ddca6e37b96e8ee4e9a2 706 workspaces-desktop_1.1ubuntu3.dsc
+ 986b85b67f66c4f8909f68ad1862eb27c3ed6879 13680 workspaces-desktop_1.1ubuntu3.tar.xz
+ cb30d13852b83db75093cde3685b544676975a5c 2372 workspaces-desktop_1.1ubuntu3_all.deb
+ 24901213226069dc6d29427cd31af5247218b2ea 5532 workspaces-desktop_1.1ubuntu3_amd64.buildinfo
+Checksums-Sha256:
+ 6f9d16e9214e55db67198c383ff1dc5ca36d807b2178414dabac7d3d415e745c 706 workspaces-desktop_1.1ubuntu3.dsc
+ 57a608832db7698f00392f5f5f049611c87affa2967085f9c5a3ec5307623a3c 13680 workspaces-desktop_1.1ubuntu3.tar.xz
+ fe68c873024367a5941021d628aeb6c8056e43abf3901605d06e56f619c3d7bc 2372 workspaces-desktop_1.1ubuntu3_all.deb
+ befaa2e4f596e3cea3ca7f36d2141244d585cf055172c155a5db03d24444c89c 5532 workspaces-desktop_1.1ubuntu3_amd64.buildinfo
+Files:
+ c42e94b0308b74a143ed41824fce50d9 706 metapackages optional workspaces-desktop_1.1ubuntu3.dsc
+ 1d20c4de82500dc832b10443640a28aa 13680 metapackages optional workspaces-desktop_1.1ubuntu3.tar.xz
+ c1d74d742489396f826f1bba1a73f448 2372 metapackages optional workspaces-desktop_1.1ubuntu3_all.deb
+ 1b8fab2f304501094c10ee8553529a87 5532 metapackages optional workspaces-desktop_1.1ubuntu3_amd64.buildinfo
